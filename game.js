@@ -83,7 +83,7 @@ var interval = setInterval(function(){
   count--;
   if (count === 0){
     clearInterval(interval);
-    document.getElementById('count').innerHTML='Done';
+    document.getElementById('count').innerHTML='Game Over';
   }
 }, 1000);
 

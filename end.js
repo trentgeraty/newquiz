@@ -10,9 +10,7 @@ console.log(JSON.parse(localStorage.getItem("highScores")));
 finalScore.innerText = mostRecentScore;
 username.addEventListener('keyup',() => {
     console.log(username.value);
-    saveScorebtn.disabled = !username.value;
 });
-
 
 saveHighScore = e => {
     e.preventDefault();
@@ -22,6 +20,7 @@ saveHighScore = e => {
         name: intials.value
     };
     highScores.push(score);
+    console.log(highScores);
 
  localStorage.setItem("highScores", JSON.stringify(highScores));
  window.location.assign("highscores.html");

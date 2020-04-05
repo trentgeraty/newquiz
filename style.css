@@ -9,7 +9,6 @@
 h1 {
     font-size: 4.5rem;
     color: black;
-    margin-bottom: 5rem;
 }
 
 h1 > span {
@@ -64,7 +63,6 @@ h4 {
     justify-content: center;
     align-items: center;
 }
-/* justify center and tet align would go here (1) */
 
 .btn {
     font-size: 1.5rem;
