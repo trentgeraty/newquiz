@@ -13,4 +13,3 @@ In my Game javascript file I referenced my questions using the new DOM skill we 
 
 In my End files I created a a location to save your intials and your score to the High Scores pages. I used alot of my knowledge of DOM and JSON to get this done. In those pages I had highscores go into a list to be displayed. 
 
-I had difficulty getting the timer to subtract time when a wrong answer was selected and my scores to show in the High Scores page. I will attend tutoring to see where I can improve my knowledge of coding. 
